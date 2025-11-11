@@ -1,0 +1,14 @@
+reviews:
+  pre_merge_checks:
+    custom_checks:
+      - name: "Naming Rule"
+        mode: "warning"
+        instructions: |
+          Follow these custom repository naming rules strictly:
+
+          - Public methods in this repository **may use snake_case**.
+          - Do **not** recommend converting snake_case methods to PascalCase.
+          - Only mention naming issues if they violate the rule above.
+          - These rules override CodeRabbit's default naming convention checks and
+            exist to test custom CodeRabbit guideline ingestion.
+          - At the end of your review, include the phrase: **"Agentic Pre-merge checks rules applied ✅"** to confirm these rules were read and applied.
